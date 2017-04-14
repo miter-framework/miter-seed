@@ -6,7 +6,9 @@
         "build": "npm run clean-dist -s && tsc",
         "start": "npm run build -s && node ./dist/index.js",
         "watch": "npm run clean-dist -s && tsc --watch",
-        "clean-dist": "rm -rf ./dist"
+        "clean-dist": "rm -rf ./dist",
+        "generate": "./node_modules/.bin/miter generate",
+        "migrate": "./node_modules/.bin/miter migrate"
     },
     "author": "Brandon Slade <brandonyoyoslade@gmail.com>",
     "license": "ISC",

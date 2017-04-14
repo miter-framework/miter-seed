@@ -30,6 +30,14 @@
         {
             "taskName": "clean-dist",
             "args": ["clean-dist"]
+        },
+        {
+            "taskName": "migrate",
+            "args": ["migrate"]
+        },
+        {
+            "taskName": "undo-migrate",
+            "args": ["migrate", "undo"]
         }
     ]
 }
