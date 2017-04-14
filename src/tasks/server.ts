@@ -1,7 +1,7 @@
 import { Task } from 'ts-task';
-import { Miter } from 'miter';
+import { Miter, ServerMetadataT } from 'miter';
 
 export const ServerTask: Task = new Task('server', (...args: any[]) => {
-    let launchConfig = require('../server/launch-config');
+    let launchConfig = <ServerMetadataT>require('../server/launch-config').launchConfig;
     Miter.launch(launchConfig);
 });

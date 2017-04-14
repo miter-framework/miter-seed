@@ -8,7 +8,7 @@ export const DEFAULT_SERVER_PORT = 8081;
 
 let ormConfig = config.try<DatabaseMetadataT>('connections.db');
 
-export const commonConfig: ServerMetadataT = {
+export const launchConfig: ServerMetadataT = {
     name: config.try<string>('server.name', 'brandonslade.me'),
     
     orm: {
