@@ -1,3 +1,5 @@
+import { ReplService } from 'miter';
 
-
-export const AppServices = [];
+export const AppServices = [
+    ReplService
+];
