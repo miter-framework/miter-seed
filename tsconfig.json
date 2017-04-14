@@ -14,7 +14,9 @@
         "noImplicitAny": true,
         "moduleResolution": "node",
         "skipLibCheck": true,
-        "types": [],
+        "types": [
+            "node"
+        ],
         "baseUrl": ".",
         "paths": {
             "*": ["node_modules/@types/*", "*"]

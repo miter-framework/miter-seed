@@ -11,7 +11,10 @@
     "author": "Brandon Slade <brandonyoyoslade@gmail.com>",
     "license": "ISC",
     "main": "./dist/index.js",
-    "dependencies": { },
+    "dependencies": {
+        "@types/node": "^7.0.12",
+        "ts-task": "^0.0.1"
+    },
     "keywords": [
         "miter",
         "miter-framework",
