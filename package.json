@@ -1,7 +1,7 @@
 {
-    "name": "api.brandonslade.me",
+    "name": "miter-seed",
     "version": "0.0.1",
-    "description": "The Miter backend for the site at brandonslade.me",
+    "description": "A sensible startup project for the Miter framework",
     "scripts": {
         "build": "npm run clean-dist -s && tsc",
         "start": "npm run build -s && node ./dist/index.js",
@@ -10,7 +10,9 @@
         "generate": "./node_modules/.bin/miter generate",
         "migrate": "./node_modules/.bin/miter migrate"
     },
-    "author": "Brandon Slade <brandonyoyoslade@gmail.com>",
+    "contributors": [
+        "Brandon Slade <brandonyoyoslade@gmail.com>"
+    ],
     "license": "ISC",
     "main": "./dist/index.js",
     "dependencies": {
@@ -24,15 +26,15 @@
     "keywords": [
         "miter",
         "miter-framework",
-        "brandonslade"
+        "miter-seed"
     ],
     "private": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/aboveyou00/api.brandonslade.me.git"
+        "url": "git+https://github.com/miter-framework/miter-seed.git"
     },
     "bugs": {
-        "url": "https://github.com/aboveyou00/api.brandonslade.me/issues"
+        "url": "https://github.com/miter-framework/miter-seed/issues"
     },
-    "homepage": "https://github.com/aboveyou00/api.brandonslade.me#readme"
+    "homepage": "https://github.com/miter-framework/miter-seed#readme"
 }

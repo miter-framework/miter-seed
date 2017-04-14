@@ -1,3 +1,3 @@
-# api.brandonslade.me
+# miter-seed
 
-The Miter backend for the site at brandonslade.me
+A sensible seed project for the Miter framework.
