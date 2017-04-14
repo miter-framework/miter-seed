@@ -12,7 +12,9 @@
     "license": "ISC",
     "main": "./dist/index.js",
     "dependencies": {
+        "@types/config": "^0.0.32",
         "@types/node": "^7.0.12",
+        "config": "^1.25.1",
         "miter": "^0.1.4",
         "miter-cli": "^0.1.3",
         "ts-task": "^0.0.1"

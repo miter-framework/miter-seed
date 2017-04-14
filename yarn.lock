@@ -24,6 +24,10 @@
   version "0.0.31"
   resolved "https://registry.yarnpkg.com/@types/config/-/config-0.0.31.tgz#34d8625b46c792625a118becc17ac3e815981b2f"
 
+"@types/config@^0.0.32":
+  version "0.0.32"
+  resolved "https://registry.yarnpkg.com/@types/config/-/config-0.0.32.tgz#c106055802d78e234e28374adc4dad460d098558"
+
 "@types/continuation-local-storage@^3.2.0":
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/@types/continuation-local-storage/-/continuation-local-storage-3.2.0.tgz#12879bdf29b42ef230863320772f1c23d6cfff4e"
@@ -308,7 +312,7 @@ config-chain@~1.1.5:
     ini "^1.3.4"
     proto-list "~1.2.1"
 
-config@^1.24.0:
+config@^1.24.0, config@^1.25.1:
   version "1.25.1"
   resolved "https://registry.yarnpkg.com/config/-/config-1.25.1.tgz#72ac51cde81e2c77c6b3b66d0130dae527a19c92"
   dependencies:
