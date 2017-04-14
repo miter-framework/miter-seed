@@ -1,0 +1,17 @@
+
+
+/node_modules/
+/dist/
+/migrations/bin/
+/migrations/tsconfig.json
+
+/config/**/local.js
+/config/**/local-*.js
+/config/**/local-*.sh
+
+/sitemap/
+
+.yarnclean
+yarn-error.log
+
+/log/**

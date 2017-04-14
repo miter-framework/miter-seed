@@ -1,0 +1,29 @@
+{
+    "name": "api.brandonslade.me",
+    "version": "0.0.1",
+    "description": "The Miter backend for the site at brandonslade.me",
+    "scripts": {
+        "build": "npm run clean-dist -s && tsc",
+        "start": "npm run build -s && node ./dist/index.js",
+        "watch": "npm run clean-dist -s && tsc --watch",
+        "clean-dist": "rm -rf ./dist"
+    },
+    "author": "Brandon Slade <brandonyoyoslade@gmail.com>",
+    "license": "ISC",
+    "main": "./dist/index.js",
+    "dependencies": { },
+    "keywords": [
+        "miter",
+        "miter-framework",
+        "brandonslade"
+    ],
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aboveyou00/api.brandonslade.me.git"
+    },
+    "bugs": {
+        "url": "https://github.com/aboveyou00/api.brandonslade.me/issues"
+    },
+    "homepage": "https://github.com/aboveyou00/api.brandonslade.me#readme"
+}
